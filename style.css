@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+}
+header .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+    width: 131.48px;
+    object-fit: contain;
+}
+.navList{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    grid-gap: 2rem;
+}
+.navList li a {
+    text-decoration: none;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    &:hover{
+        color: #1ED760;
+    }
+}
+.navList span{
+    color: white;
+}
+.sec1{
+    height: 400px;
+    background-color: #A1248B;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.sec1 .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sec1-image{
+    height: 390px;
+    object-fit: contain;
+}
+.sec1-col{
+    display: flex;
+    flex-direction: column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    
+}
+.sec1-col .links{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    gap: 1rem;
+    
+}
+.sec1-col h1{
+    font-size: 35px;
+    padding-top: 60px;
+}
+.sec1-col p{
+    font-size: 24px;
+    margin-top: 30px;
+    font-weight: 300px;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+      
+}
+.links div{
+    border: 1px solid;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    border-radius: 55px;
+    padding: 8px 32px;
+}
+.links div:nth-of-type(1){
+    border-color: black;
+    background-color: black;
+}
+.sec1-col span{
+    padding-top: 38px;
+    font-size: x-small;
+}
+.sec1-col span a {
+    color: white;
+}
+.sec2{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: #F8F8F8;
+    height: 450px;
+    width: 100%;
+    padding: 48px;
+}
+.sec2 .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sec2 .container h2{
+    padding-top: 48px;
+    font-size: xx-large;
+}
+.sec2 .container p{
+    font-size: 24px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.sec2 .download{
+    padding: 48px;
+}
+.sec2 .download a{
+    text-decoration: none;
+}
+.sec2 span{
+    color: inherit;
+    font-size: 11px;
+    text-align: center;
+}
+.sec2 span a{
+    color: inherit;
+}
+.sec3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 480px;
+}
+.sec3 .container{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sec3 .container h2{
+    font-size: xx-large;
+}
+.sec3 .container ul{
+    list-style: none;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 4rem;
+    width: 80%;
+}
+.sec3 .container ul img{
+    height: 142;
+    object-fit: contain;
+}
+.image{
+width: 200;
+height: 155;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.imageDes{
+    width: 250;
+    display: flex;
+flex-direction: column;
+align-items: center;
+}
+.imageDes p{
+    padding-top: 10px;
+}
+.imageDes p:nth-of-type(1){
+    font-size: 18px;
+    font-weight: bold;
+}
+.imageDes p:nth-of-type(2){
+    font-size: 16px;
+}
+.sec4{
+    height: 900px;
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.sec4 .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.sec4 .container h2{
+    padding-top: 48px;
+    font-size: xx-large;
+    padding-bottom: 10px;
+}
+.sec4 .box-lists{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    gap: 15px;
+    
+}
+.sec4 .container .card{
+    width:380px;
+    height:500px;
+    border:1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 70px;
+    box-shadow: 0px 0px 3px 2px grey;
+}
+.card .box{
+    padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+.free{
+    background-color: #2E77D0;
+    color: white;
+    font-size: 14px;;
+    font-weight: bold;
+    width:100px;
+    height: 30px;
+    border: 1px solid #2E77D0;
+    border-radius: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.features{
+    padding-left: 15px;
+    height: 230px;
+    padding-top: 12px; 
+    list-style: '\2713'; 
+}
+.planName{
+    font-size: 24px;
+    font-weight: bold;
+}
+.offer{
+    font-size: 16px;
+    font-weight: 400;
+}
+.row1{
+    height: 125px;
+}
+.features li{
+    padding-bottom: 12px;
+   
+}
+.join{
+    height: 48px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 55px;
+    background-color: black;
+    margin-bottom: 20px;
+}
+.join a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+.card span{
+    font-size: 12px;
+}
+.card span a{
+    color: inherit;
+}
+.sec5{
+    height:650px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #F8F8F8;
+}
+.sec5 .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sec5 h2{
+    font-size: xx-large;
+    padding-bottom: 10px;
+}
+.sec5 p{
+    font-size: 24px;
+}
+.questionsBox{
+    margin-top: 50px;
+    width: 100%;
+}
+.ques{
+background-color: white;
+font-size: 18px;
+font-weight: bold;
+height: 80px;
+margin-bottom: 5px;
+padding-inline-start: 20px;
+display: flex;
+align-items: center;
+&:hover{
+    text-decoration: underline;
+    background-color: #F8F8F8;
+}
+}
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 580px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer .box1{
+    padding-top:80px ;
+    display: flex;
+    color: white;
+    height: 450px;
+}
+footer .col{
+    width: 250px;
+    height: 257px;
+}
+footer .col img{
+width: 131.48px;
+object-fit: contain;
+
+}
+footer .col p{
+    padding-top:14px ;
+    font-size: 12px;
+    color: gray;
+}
+footer .col ul{
+    list-style: none;
+    padding-top: 30px;
+}
+footer .col ul a{
+    text-decoration: none;
+    color: white;
+    &:hover{
+        color: #1ED760;
+    }
+}
+footer .col ul li{
+    padding-bottom: 30px;
+}
+footer .box2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer .box2 .left ul{
+    width:350px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+footer .box2 .left li a, footer .box2 .right li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
+    &:hover{
+        color: #1ED760;
+    }
+}
+footer .box2 .right ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 14px;
+}
+
+
+
+
